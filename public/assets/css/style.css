@@ -1,0 +1,509 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.page-wrapper {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-header {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.page-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumb-item {
+    list-style: none;
+    display: inline;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.profile-header {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-user-info {
+    margin-left: 20px;
+}
+
+.user-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.text-muted {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.user-Location {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #777;
+}
+
+.about-text {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.profile-btn {
+    margin-left: auto;
+}
+
+.profile-menu {
+    margin-top: 20px;
+}
+
+.nav-tabs-solid .nav-item .nav-link {
+    border: none;
+    background-color: transparent;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-tabs-solid .nav-item .nav-link.active {
+    border: none;
+    background-color: transparent;
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+}
+
+.tab-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.edit-link {
+    color: #007BFF;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-crt {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #aa0505;
+
+}
+
+.btn-aksi {
+    font-size: 12x;
+    margin: 2px;
+    width: 70px;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.breadcrumb-item a {
+    color: rgb(87, 87, 87);
+}
+
+.breadcrumb-item.nonactive a {
+    color: #850f0f;
+}
+
+
+
+@media (max-width: 767px) {
+    #sidebar {
+        width: 0;
+    }
+
+    #sidebar.active {
+        left: 0;
+    }
+
+    #sidebarCollapse {
+        display: block;
+    }
+
+    #content {
+        margin-left: 0;
+        transition: margin-left 0.3s;
+    }
+
+    #sidebar.active+#content {
+        margin-left: 250px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #sidebar {
+        width: 0;
+    }
+
+    #sidebar.active {
+        left: 0;
+    }
+
+    #sidebarCollapse {
+        display: block;
+    }
+
+    #content {
+        margin-left: 0;
+        transition: margin-left 0.3s;
+    }
+
+    #sidebar.active+#content {
+        margin-left: 250px;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    #sidebar {
+        width: 0;
+    }
+
+    #sidebar.active {
+        left: 0;
+    }
+
+    #sidebarCollapse {
+        display: block;
+    }
+
+    #content {
+        margin-left: 0;
+        transition: margin-left 0.3s;
+    }
+
+    #sidebar.active+#content {
+        margin-left: 250px;
+    }
+
+}
+
+#content {
+    margin-left: 0;
+    transition: margin-left 0.3s;
+}
+
+#sidebar.active+#content {
+    margin-left: 250px;
+}
+
+
+.navbar {
+    background-color: #ad0000;
+    color: #ffffff;
+    transition: background-color 0.3s;
+    position: relative;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    transition: color 0.3s;
+    padding-left: 30px;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 18px;
+    color: #f8f5f5;
+}
+
+
+
+/* Additional CSS for Landing Page */
+.landing-page {
+    background-image: url('https://awsimages.detik.net.id/community/media/visual/2021/10/22/it-telkom-surabaya.jpeg?w=1200');
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.landing-page h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.landing-page p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+/* Style for the sidebar */
+#sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #850f0f;
+    color: white;
+    transition: left 0.3s;
+    padding-top: 20px;
+    z-index: 2;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Style for sidebar links */
+#sidebar ul.components {
+    padding: 20px 0;
+
+}
+
+#sidebar ul p {
+    padding: 20px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a {
+    padding: 20px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff;
+}
+
+
+#sidebar ul li a:hover {
+    color: #000000;
+    background: #d14b4b;
+}
+
+/* Style for sidebar toggle button */
+#sidebarCollapse {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #aa0505;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    top: 10px;
+}
+
+#sidebarCollapse span {
+    font-size: 2em;
+}
+
+.sidebar-header h3 {
+    font-size: 1.5em;
+    /* Sesuaikan ukuran teks sesuai kebutuhan Anda */
+    color: white;
+    /* Ganti warna teks sesuai preferensi Anda */
+    padding-left: 30px;
+}
+
+.sidebar {
+    background-color: #ad0000;
+    /* Ganti #your-color dengan kode warna yang Anda inginkan */
+}
+
+
+ul.list-unstyled.components li.active {
+    background-color: #d14b4b;
+    color: #000000;
+}
+
+#sidebar ul.list-unstyled.components li a {
+    padding: 20px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    /* Menghilangkan garis bawah pada tautan */
+}
+
+#sidebar ul.list-unstyled.components li a:hover {
+    color: #000000;
+    background: #d14b4b;
+    text-decoration: none;
+
+}
+
+
+.pagination a svg {
+    width: 30px;
+    height: 30px;
+    fill: currentColor;
+}
+
+/* Gaya submenu */
+#sidebar ul.list-unstyled.components li ul {
+    background-color: #850f0f;
+    padding: 10px 0;
+}
+
+#sidebar ul.list-unstyled.components li ul li a {
+    padding: 10px 40px;
+    font-size: 1em;
+    color: #fff
+}
+
+#sidebar ul.list-unstyled.components li ul li a:hover {
+    background-color: #d14b4b;
+    /* Warna latar belakang saat dihover */
+    color: #000000;
+    /* Warna teks saat dihover */
+}
+
+/* Gaya panah submenu */
+#sidebar ul.list-unstyled.components li a[data-toggle="collapse"]:before {
+    content: "\f107";
+    /* Menggunakan ikon panah bawah Font Awesome */
+    float: right;
+}
+
+#sidebar ul.list-unstyled.components li a[data-toggle="collapse"].collapsed:before {
+    content: "\f105";
+    /* Menggunakan ikon panah kanan Font Awesome saat submenu tertutup */
+}
+
+
+/* css untuk tabel*/
+table.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.table thead {
+    background-color: #f7f7f7;
+}
+
+table.table th,
+table.table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table.table th {
+    font-weight: bold;
+}
+
+
+
+.btn-action {
+    width: 60px;
+    height: 40px;
+}
+
+.btn-create {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+
+}
+
+.btn-flicker {
+    margin-bottom: 5px;
+}
+
+
+
+#search {
+    width: 30%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.container-flick {
+    margin-top: 30px;
+}
+
+.checklist-all-checkbox {
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.card-header.text-center {
+    text-align: center;
+}
+
+.batastabel {
+
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}

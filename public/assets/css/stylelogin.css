@@ -1,0 +1,114 @@
+/* Gaya untuk body atau latar belakang halaman login */
+body {
+    background-color: #076fd8; /* Warna latar belakang */
+}
+
+/* Gaya untuk card yang memuat formulir login */
+.card {
+    margin-top: 50px;
+}
+
+/* Gaya untuk label input */
+label {
+    font-weight: bold;
+}
+
+/* Gaya untuk tombol Login */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Gaya untuk tombol Login saat dihover */
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+}
+
+
+.invalid-feedback {
+    color: #dc3545;
+}
+
+
+.form-check-label {
+    font-weight: normal;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo-container span{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+    
+}
+.color{
+    background-color: #ad0000 ;
+    color: rgb(72, 72, 77);
+}
+/* CSS untuk mengubah tampilan tabel login */
+.login-table {
+    width: 100%;
+    max-width: 400px; /* Lebar maksimum tabel login */
+    margin: 100px auto; /* Pusatkan tabel login di tengah halaman */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-table h1 {
+    text-align: center; /* Pusatkan teks "Welcome to MeetSync" */
+    color: #333; /* Warna teks */
+}
+
+.login-table label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-table input[type="text"],
+.login-table input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-table .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ad0000; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-table .btn:hover {
+    background-color: white; 
+}
+
+.login-table .invalid-feedback {
+    color: red; /* Warna pesan kesalahan */
+}
+
+/* Gaya untuk tautan "Forgot Your Password?" */
+.login-table a.btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-table a.btn-link:hover {
+    text-decoration: underline;
+}
+.clr {
+    color: white;
+}
